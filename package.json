@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "typescript": "^5.7.0",
-    "vitest": "^3.0.0",
+    "vitest": "^5.0.2",
     "@types/node": "^26.6.2",
     "@changesets/cli": "^3.0.3"
   },
