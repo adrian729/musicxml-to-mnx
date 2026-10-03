@@ -110,8 +110,8 @@ importers:
   .:
     dependencies:
       '@polyhymnia/mnx':
-        specifier: ^0.2.0
-        version: 0.2.0
+        specifier: ^0.3.0
+        version: 0.3.0
       ajv:
         specifier: 8.20.0
         version: 8.20.0
@@ -392,8 +392,8 @@ packages:
     resolution: {integrity: sha512-pOr5+q1fLYKwFN3LAJuGZEnfXDcQ73zqgDHMtGy+K+uIoUqyY+6MeDCWFwfu+4EFuq76I5EPFofoNAI+Bmmq4A==}
     engines: {node: '>=22.13'}
 
-  '@polyhymnia/mnx@0.2.0':
-    resolution: {integrity: sha512-dDlDSD/HRHZmaJCGPvJ1RkIKGO4TnDwtBcJzToajJh8AXu39kZTEkUmNit2CYd2V2TWFXHtYv/BE2CCAfsLRxg==}
+  '@polyhymnia/mnx@0.3.0':
+    resolution: {integrity: sha512-QqRuGFBjGybnQ9MElU2n85lnOdBkYRzC2iaYbXSMpBMdX+zYGVpnfnad4CSiW7SIamFbjyCP/m6KX2NQh2Eruw==}
     engines: {node: '>=20'}
 
   '@rgrove/parse-xml@5.0.0':
@@ -1160,7 +1160,7 @@ snapshots:
 
   '@pnpm/deps.graph-sequencer@1100.0.1': {}
 
-  '@polyhymnia/mnx@0.2.0': {}
+  '@polyhymnia/mnx@0.3.0': {}
 
   '@rgrove/parse-xml@5.0.0': {}
 
