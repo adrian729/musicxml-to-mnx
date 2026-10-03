@@ -8,8 +8,9 @@
 
 # Publishing
 - Published to public npm (`publishConfig.access: public`, `files` whitelist, own `LICENSE`).
-- Record releasable changes with `pnpm changeset`. Agents never run `changeset publish`, `npm publish`, or push; the user publishes.
-- Before a release, `pnpm pack` and smoke-install the tarball in a scratch project.
+- Record releasable changes with `pnpm changeset`.
+- Release only when the user asks: run `pnpm release` from a clean `main` and complete it without further confirmation. It checks the package, versions pending changesets, smoke-installs the packed library and CLI, pushes main, waits for CI, dispatches publishing for that exact commit, and verifies npm. Fix failures, commit, and rerun; the command resumes an unpublished version.
+- Never run `changeset version`, `changeset publish` or `npm publish` directly, merge version-package PRs, force-push, or bypass branch protection. Publishing runs in `release.yml`; pushes are authorized as part of a requested release or consumer update.
 
 # Tests
 - Add a test only to prevent a real regression: a contract or a bug that was actually fixed. Otherwise don't.
