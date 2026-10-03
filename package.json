@@ -1,6 +1,6 @@
 {
   "name": "@polyhymnia/musicxml-to-mnx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Offline MusicXML to MNX converter (library and CLI) with schema validation and stable element ids.",
   "keywords": [
     "musicxml",
